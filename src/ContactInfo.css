@@ -1,36 +1,29 @@
+.ContactDiv{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
 .ProfilePic{
-    width: 100%;
-    height: 100%;
-    border-radius: 5em;
+
+    border-radius: 100%;
   }
 
-.GitHubButton{
-    width: 100%;
-    height: 100%
-}
-.GitHubButton:hover{
-    cursor: pointer;
-}
-
 .IconFlexbox{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.LinkedInButton{
-    width: 100%;
-    height: 100%
+.IconFlexbox *{
+    width: 10%;
+    height: 10%
+
 }
-.LinkedInButton:hover{
+
+.IconFlexbox *:hover{
     cursor: pointer;
-}
-.GitHubButton, .LinkedInButton {
-    align-self: center;
-    justify-self: center;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+

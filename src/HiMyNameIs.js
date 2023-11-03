@@ -8,7 +8,7 @@ function HiMyNameIs(props) {
 
 
     return (
-        <div className="HeaderDiv">
+        <div className="OpeningTextDiv">
             <p>Hi, my name is</p>
             <h1>Parker Throneberry</h1>
             <h2>I like making things using javascript</h2>

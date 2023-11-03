@@ -2,14 +2,14 @@
 
 }
 
-.HeaderDiv{
+.OpeningTextDiv{
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-left: 3em;
     padding:0;
 }
-.HeaderDiv *{
+.OpeningTextDiv *{
     margin-bottom:.5em;
     text-align: left;
 }
