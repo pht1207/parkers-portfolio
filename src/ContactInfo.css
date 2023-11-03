@@ -3,3 +3,12 @@
     height: 100%;
     border-radius: 5em;
   }
+
+.GitHubButton{
+    width: 10%;
+    height: 10%
+    
+}
+.GitHubButton:hover{
+    cursor: pointer;
+}
