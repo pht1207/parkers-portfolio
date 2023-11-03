@@ -11,6 +11,8 @@ function HiMyNameIs(props) {
         <div className="HeaderDiv">
             <p>Hi, my name is</p>
             <h1>Parker Throneberry</h1>
+            <h2>I like making things using javascript</h2>
+            <p>I am a full stack web dev who specializes in engineering web platforms</p>
         </div>
     );
     }
