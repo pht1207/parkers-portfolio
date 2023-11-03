@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import HiMyNameIs from './HiMyNameIs';
 import ProfilePic from './images/Me.jpg'
+import ContactInfo from './ContactInfo'
 
 function App() {
   return (
@@ -14,9 +15,7 @@ function App() {
           </>
           }
           />
-          <img src={ProfilePic} className='ProfilePic'>
-          </img>
-
+          <ContactInfo/>
         </div>
 
       </header>
