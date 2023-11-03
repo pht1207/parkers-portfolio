@@ -29,8 +29,7 @@
 .GitHubButton, .LinkedInButton {
     align-self: center;
     justify-self: center;
-    width: 50px;  /* or whatever size you desire */
-    height: 50px;
+
     display: flex;
     align-items: center;
     justify-content: center;
