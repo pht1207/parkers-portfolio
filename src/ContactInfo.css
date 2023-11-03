@@ -12,3 +12,7 @@
 .GitHubButton:hover{
     cursor: pointer;
 }
+
+.IconFlexbox{
+    display: flex;
+}
