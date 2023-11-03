@@ -10,6 +10,7 @@
 
 .IconFlexbox{
     width: 100%;
+    margin-top: .2em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
