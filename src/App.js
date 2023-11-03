@@ -1,18 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
 import HiMyNameIs from './HiMyNameIs';
+import ProfilePic from './images/Me.jpg'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <HiMyNameIs speed={100} html={
-        <>
-          <p>Hi, my name is</p>
-          <h1>Parker Throneberry</h1>
-        </>
-        }
-        />
+
+        <div className='Opening'>
+          <HiMyNameIs speed={100} html={
+          <>
+          </>
+          }
+          />
+          <img src={ProfilePic} className='ProfilePic'>
+          </img>
+
+        </div>
 
       </header>
     </div>

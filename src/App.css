@@ -22,3 +22,16 @@
   box-sizing: border-box;
   margin:0;
 }
+
+.Opening{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+.ProfilePic{
+  width: 10%;
+  height: 10%;
+  border-radius: 5em;
+}
