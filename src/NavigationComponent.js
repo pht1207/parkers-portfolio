@@ -1,15 +1,23 @@
 import './NavigationComponent.css'
 import { useEffect, useState } from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 function NavigationComponent(props) {
 
     return (
-        <nav className="NavBar">
-            <a href='google.com'>Home</a>
-            <a href='google.com'>About me</a>
-            <a href='google.com'>Projects</a>
-            <a href='google.com'>Resume</a>
-        </nav>
+        <Router>
+            <nav className="NavBar">
+                <Link to="/">Home</Link>
+                <Link to="/About">About Me</Link>
+                <Link to="/Projects">Projects</Link>
+                <Link to="/Resume">Resume</Link>
+            </nav>
+        </Router>
     );
     }
     
