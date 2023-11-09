@@ -12,8 +12,8 @@ import App from './App';
 import HiMyNameIs from './HiMyNameIs';
 
 import ContactInfo from './ContactInfo'
-import Projects from './Projects';
-import AboutMe from './AboutMe';
+import Projects from './Pages/Projects';
+import AboutMe from './Pages/AboutMe';
 
 function NavigationComponent(props) {
 
