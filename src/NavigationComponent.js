@@ -10,9 +10,9 @@ import {
 
 import HiMyNameIs from './Pages/Home/HiMyNameIs';
 
-import Projects from './Pages/Projects/Projects';
-import AboutMe from './Pages/AboutMe';
-import Home from './Pages/Home/Home';
+import ProjectsPage from './Pages/Projects/ProjectsPage';
+import AboutMePage from './Pages/AboutMePage';
+import HomePage from './Pages/Home/HomePage';
 
 function NavigationComponent(props) {
 
@@ -26,9 +26,9 @@ function NavigationComponent(props) {
             </nav>
             
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<AboutMe />} />
-                <Route path="/projects" element={<Projects />} />
+                <Route path="/" element={<HomePage />} />
+                <Route path="/about" element={<AboutMePage />} />
+                <Route path="/projects" element={<ProjectsPage />} />
                 <Route path="/resume" element={<HiMyNameIs />} />
                 {/* Other routes */}
             </Routes>
