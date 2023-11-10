@@ -13,7 +13,14 @@
     flex-direction: column;
 }
 
-.ProjectImage{
+
+
+.ProjectFigure{
     height: 100%;
-    margin:1em
+    margin:1em;
+}
+.ProjectImage{
+    height: 33vh;
+    border-radius: 1em;
+
 }

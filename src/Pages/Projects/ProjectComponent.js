@@ -24,7 +24,7 @@ function ProjectComponent(props) {
                 </ul>
             </div>
 
-            <figure>
+            <figure className='ProjectFigure'>
                 <img src={PrintAppImage} className='ProjectImage'></img>
             </figure>
 
