@@ -16,13 +16,17 @@ function Projects() {
                 URL="print.parkert.dev"
                 imgSrc="PrintAppScreenshot1.png"
 
-                description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:" 
+                description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:"
+
                 title2="File Input: "
                 description2="Users input their stl files and select a desired print quality. The file is then sent to the backend."
+
                 title3="Backend Processing: "
-                description3="The backend parses their stl file to gcode and presents the 3D gcode object to them to be viewed."
+                description3="The backend parses their stl file to gcode, sends it back to the frontend application."
+
                 title4="3D Preview: "
-                description4="The user can then add the gcode order to their cart and purchase it via Stripe.js."
+                description4="The user can then view or reparse the gcode file."
+
                 title5="Order and Payment: "
                 description5="The user can then add the gcode order to their cart and purchase it via Stripe.js."
 
@@ -33,7 +37,8 @@ function Projects() {
                 URL="transcoder.parkert.dev"
                 imgSrc="TranscodeAppScreenshot1.png"
 
-                description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:" 
+                description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:"
+
                 title2="File Input: "
                 description2="Users input their stl files and select a desired print quality. The file is then sent to the backend."
                 title3="Backend Processing: "
@@ -49,7 +54,8 @@ function Projects() {
                 URL="home.parkert.dev"
                 imgSrc="HomepageAppScreenshot1.png"
 
-                description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:" 
+                description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:"
+
                 title2="File Input: "
                 description2="Users input their stl files and select a desired print quality. The file is then sent to the backend."
                 title3="Backend Processing: "
@@ -64,7 +70,8 @@ function Projects() {
                 URL="print.parkert.dev"
                 imgSrc="../../images/ProjectsImages/PrintAppScreenshot1.png"
 
-                description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:" 
+                description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:"
+
                 title2="File Input: "
                 description2="Users input their stl files and select a desired print quality. The file is then sent to the backend."
                 title3="Backend Processing: "
