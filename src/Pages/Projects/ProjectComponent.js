@@ -17,10 +17,10 @@ function ProjectComponent(props) {
             <div className='ProjectDescription'>
                 <h1>{title}</h1>
                 <ul className='DescriptionList'>
-                    <li><p>{description1}</p></li>
-                    <li><p>{description2}</p></li>
-                    <li><p>{description3}</p></li>
-                    <li><p>{description4}</p></li>
+                    <li>{description1}</li>
+                    <li>{description2}</li>
+                    <li>{description3}</li>
+                    <li>{description4}</li>
                 </ul>
             </div>
 

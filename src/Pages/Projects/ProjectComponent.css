@@ -1,7 +1,7 @@
 .ProjectComponent{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     max-height: 40%;
     
     border-style: solid;
@@ -9,8 +9,11 @@
     border-radius: 1em;
 }
 .ProjectDescription{
-    display: flex;
-    flex-direction: column;
+    margin: 2em;
+}
+.DescriptionList{
+    text-align: start;
+    font-size: large;
 }
 
 
@@ -22,5 +25,4 @@
 .ProjectImage{
     height: 33vh;
     border-radius: 1em;
-
 }
