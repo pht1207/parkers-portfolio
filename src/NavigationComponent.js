@@ -19,7 +19,7 @@ function NavigationComponent(props) {
 
     return (
         <Router>
-            <nav className="NavBar">
+            <nav className="NavigationFlexBox">
                 <Link to="/">Home</Link>
                 <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>

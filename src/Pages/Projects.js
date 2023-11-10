@@ -1,11 +1,6 @@
 import './Projects.css'
 import { useEffect, useState } from 'react';
 
-
-import App from '../App';
-import HiMyNameIs from '../HiMyNameIs';
-import ContactInfo from '../ContactInfo'
-
 function Projects(props) {
 
     return (

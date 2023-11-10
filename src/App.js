@@ -14,8 +14,9 @@ import {
 function App() {
   return (
     <div className="App">
+      <NavigationComponent/>
+
       <header className="App-header">
-        <NavigationComponent/>
 
         <div className='Opening'>
           <HiMyNameIs speed={100} html={
