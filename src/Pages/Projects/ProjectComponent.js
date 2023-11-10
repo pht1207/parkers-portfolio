@@ -1,14 +1,14 @@
-import './Projects.css'
+import './Project.css'
 import { useEffect, useState } from 'react';
 
-function Projects() {
+function ProjectComponent() {
 
     return (
-        <div className='ProjectsDiv'>
+        <div className='ProjectComponent'>
             <h1>These are my projects</h1>
             <p>asdasfs</p>
         </div>
     );
     }
     
-    export default Projects;
+    export default ProjectComponent;
