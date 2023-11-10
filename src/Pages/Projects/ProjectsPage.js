@@ -7,7 +7,7 @@ function Projects() {
 
     return (
         <div className='ProjectsDiv'>
-            <h1>These are my projects</h1>
+            <h1 className='ProjectHeader'>This is the page that showcases my projects!</h1>
             <ul>
                 <ProjectComponent 
                 title="3D Printing Application"
@@ -18,7 +18,18 @@ function Projects() {
                 description4="4"
                 imgSrc="../../images/ProjectsImages/PrintAppScreenshot1.png"/>
             </ul>
-            <p>asdasfs</p>
+
+            <ul>
+                <ProjectComponent 
+                title="Transcoding Application"
+                websiteName="print.parkert.dev"
+                description1="1" 
+                description2="2" 
+                description3="3"
+                description4="4"
+                imgSrc="../../images/ProjectsImages/PrintAppScreenshot1.png"/>
+            </ul>
+
         </div>
     );
     }
