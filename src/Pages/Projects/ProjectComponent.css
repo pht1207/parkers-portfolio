@@ -1,0 +1,19 @@
+.ProjectComponent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 40%;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1em;
+}
+.ProjectDescription{
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectImage{
+    height: 100%;
+    margin:1em
+}

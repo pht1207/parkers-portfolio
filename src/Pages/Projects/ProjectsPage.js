@@ -12,11 +12,11 @@ function Projects() {
                 <ProjectComponent 
                 title="3D Printing Application"
                 websiteName="print.parkert.dev"
-                descriptor1="" 
-                descriptor2="" 
-                descriptor3=""
-                descriptor4=""
-                imgSrc="../../"/>
+                description1="1" 
+                description2="2" 
+                description3="3"
+                description4="4"
+                imgSrc="../../images/ProjectsImages/PrintAppScreenshot1.png"/>
             </ul>
             <p>asdasfs</p>
         </div>
