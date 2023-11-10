@@ -3,5 +3,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    font-size: large;
+    font-size: x-large;
+}
+
+.NavigationFlexBox a{
+    text-decoration: none;
 }

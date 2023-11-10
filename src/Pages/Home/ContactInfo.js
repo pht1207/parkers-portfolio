@@ -25,7 +25,6 @@ function HiMyNameIs(props) {
                 <img className="GitHubIcon"src={GitHubIcon} onClick={GitHubIconClicked}></img>
                 <img className="LinkedInIcon"src={LinkedInIcon} onClick={LinkedInIconClicked}></img>
                 <img className="ResumeIcon"src={ResumeIcon} onClick={ResumeIconClicked}></img>
-
             </div>
         </div>
     );

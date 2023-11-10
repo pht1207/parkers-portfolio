@@ -10,7 +10,7 @@ import {
 
 import HiMyNameIs from './Pages/Home/HiMyNameIs';
 
-import Projects from './Pages/Projects';
+import Projects from './Pages/Projects/Projects';
 import AboutMe from './Pages/AboutMe';
 import Home from './Pages/Home/Home';
 
@@ -24,6 +24,7 @@ function NavigationComponent(props) {
                 <Link to="/projects">Projects</Link>
                 <Link to="/resume">Resume</Link>
             </nav>
+            
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<AboutMe />} />
