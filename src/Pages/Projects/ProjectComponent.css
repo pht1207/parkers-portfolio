@@ -16,6 +16,10 @@
     font-size: large;
 }
 
+.DescriptionList *{
+    margin-bottom: 1em;
+}
+
 
 
 .ProjectFigure{

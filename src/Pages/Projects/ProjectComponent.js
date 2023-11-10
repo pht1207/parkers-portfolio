@@ -11,6 +11,12 @@ function ProjectComponent(props) {
     const description3 = props.description3;
     const description4 = props.description4;
 
+    const URL = props.URL;
+
+    function imageClick(){
+        window.open("https://"+URL)
+    }
+
     return (
         <div className='ProjectComponent'>
 
@@ -18,6 +24,7 @@ function ProjectComponent(props) {
                 <h1>{title}</h1>
                 <ul className='DescriptionList'>
                     <li>{description1}</li>
+                    <br/>
                     <li>{description2}</li>
                     <li>{description3}</li>
                     <li>{description4}</li>
@@ -25,7 +32,7 @@ function ProjectComponent(props) {
             </div>
 
             <figure className='ProjectFigure'>
-                <img src={PrintAppImage} className='ProjectImage'></img>
+                <img src={PrintAppImage} className='ProjectImage' onClick={imageClick}></img>
             </figure>
 
         </div>
