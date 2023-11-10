@@ -8,12 +8,11 @@ import {
     Routes
   } from "react-router-dom";
 
-import App from './App';
-import HiMyNameIs from './HiMyNameIs';
+import HiMyNameIs from './Pages/Home/HiMyNameIs';
 
-import ContactInfo from './ContactInfo'
 import Projects from './Pages/Projects';
 import AboutMe from './Pages/AboutMe';
+import Home from './Pages/Home/Home';
 
 function NavigationComponent(props) {
 
@@ -26,7 +25,7 @@ function NavigationComponent(props) {
                 <Link to="/resume">Resume</Link>
             </nav>
             <Routes>
-                <Route path="/" element={<></>} />
+                <Route path="/" element={<Home />} />
                 <Route path="/about" element={<AboutMe />} />
                 <Route path="/projects" elements={<Projects />} />
                 <Route path="/resume" element={<HiMyNameIs />} />
