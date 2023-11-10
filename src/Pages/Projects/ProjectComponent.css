@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     max-height: 40%;
     
     border-style: solid;
@@ -11,6 +12,7 @@
 }
 .ProjectDescription{
     margin: 2em;
+    max-width: 50%;
 }
 .DescriptionList{
     text-align: start;
@@ -28,6 +30,7 @@
     margin:1em;
 }
 .ProjectImage{
-    height: 33vh;
+    max-height: 33vh;
+    width: 100%;
     border-radius: 1em;
 }
