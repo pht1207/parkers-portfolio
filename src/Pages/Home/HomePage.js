@@ -1,4 +1,4 @@
-import './Home.css';
+import './HomePage.css';
 import HiMyNameIs from './HiMyNameIs';
 import ContactInfo from './ContactInfo'
 
