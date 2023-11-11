@@ -1,4 +1,5 @@
-
+.Home{
+}
   
   .Opening{
     display: flex;
@@ -22,5 +23,8 @@
     .Opening{
       align-items: center; /* Align items to the top of the container */
       height: 30%;
+    }
+    .InvisibleDiv{
+      height: 100vh;
     }
   }
