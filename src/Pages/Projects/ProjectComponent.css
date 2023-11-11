@@ -8,13 +8,17 @@
     border-width: 1px;
     border-radius: 1em;
 
+    margin: 1em;
+    width: 80%;
+
 }
+/*
 @media (min-aspect-ratio: 5/4) {
     .ProjectComponent{
         flex: 45%;
         max-width: 45%;
         margin: 1em;
-
+        height: 80%;
     }
   }
   @media (max-aspect-ratio: 5/4) {
@@ -24,12 +28,13 @@
         margin: 2em;
     }
   }
-
+*/
   
 
 .ProjectDescription{
     margin: 2em;
     max-width: 50%;
+    align-self: start;
 }
 .DescriptionList{
     text-align: start;
