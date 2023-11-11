@@ -11,8 +11,9 @@ function HiMyNameIs(props) {
         <div className="OpeningTextDiv">
             <p>Hi, my name is</p>
             <h1>Parker Throneberry</h1>
-            <h2>I like making things using javascript</h2>
+            <h2>I like to make things using JavaScript :)</h2>
             <p>I am a full stack web dev who specializes in engineering web platforms</p>
+            <p>I graduate from UNTD in Spring of 2024 with a bachelors in Information Technology!</p>
         </div>
     );
     }
