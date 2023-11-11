@@ -11,6 +11,7 @@ function Projects() {
     return (
         <div className='ProjectsDiv'>
             <h1 className='ProjectHeader'>This is the page that showcases my projects!</h1>
+                <ul className='ProjectComponentList'>
                 <ProjectComponent
                 title="3D Printing Application"
                 URL="print.parkert.dev"
@@ -50,13 +51,13 @@ function Projects() {
                 title5="Download or Convert More: "
                 description5="The user may download the video, or click the 'Convert More' button to complete more conversions."
                 />
-                
+
                 <ProjectComponent 
                 title="Home Page Application"
                 URL="home.parkert.dev"
                 imgSrc="HomepageAppScreenshot1.png"
 
-                description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:"
+                description1="This is an application that functions as a homepage, shows the weather, and has settings where you can change your name for a customized greeting. This is how it functions:"
 
                 title2="File Input: "
                 description2="Users input their stl files and select a desired print quality. The file is then sent to the backend."
@@ -69,11 +70,11 @@ function Projects() {
                 />
 
                 <ProjectComponent 
-                title="Transcoding Application"
-                URL="print.parkert.dev"
-                imgSrc="../../images/ProjectsImages/PrintAppScreenshot1.png"
+                title="Fitbit Application"
+                URL="gallery.fitbit.com/details/ed21bbe4-caf8-4bd3-9b4a-d55cbd57319f"
+                imgSrc="../../images/ProjectsImages/FitbitAppScreenshot1.png"
 
-                description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:"
+                description1="This is a simple application designed for Fitbits that fetches data from api endpoints and displays it on the screen. This is how it works:"
 
                 title2="File Input: "
                 description2="Users input their stl files and select a desired print quality. The file is then sent to the backend."
@@ -84,7 +85,7 @@ function Projects() {
                 title5="Order and Payment: "
                 description5="The user can then add the gcode order to their cart and purchase it via Stripe.js."
                 />
-
+            </ul>
         </div>
     );
     }

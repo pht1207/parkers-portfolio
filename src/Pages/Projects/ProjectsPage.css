@@ -1,3 +1,12 @@
 .ProjectHeader{
     margin:.5em;
 }
+.ProjectComponentList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
