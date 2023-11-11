@@ -3,25 +3,9 @@
   background-color: #282c34;
   font-family: 'Courier New',  Courier, 'Lucida Console';
 }
+
 *{
   background-color: #282c34;
-}
-
-
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: #00FF41;
-}
-*{
   color:#00FF41;
   box-sizing: border-box;
   margin:0;
@@ -33,4 +17,18 @@
   justify-content: space-around;
   width: 100%;
   align-items: center;
+}
+
+
+@media (min-aspect-ratio: 5/4) {
+  .OpeningTextDiv{
+      flex: 80%;
+      padding:1em;
+  }
+}
+@media (max-aspect-ratio: 5/4) {
+  .OpeningTextDiv{
+      flex: 50%;
+      padding:1em;
+  }
 }
