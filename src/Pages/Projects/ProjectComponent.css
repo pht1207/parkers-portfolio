@@ -10,12 +10,11 @@
 
     margin-bottom: 2em;
     width: 80%;
-
+    
 }
-/*
+
 @media (min-aspect-ratio: 5/4) {
     .ProjectComponent{
-        flex: 45%;
         max-width: 45%;
         margin: 1em;
         height: 80%;
@@ -23,12 +22,11 @@
   }
   @media (max-aspect-ratio: 5/4) {
     .ProjectComponent{
-        flex: 100%;
         width: 100vw;
         margin: 2em;
     }
   }
-*/
+
   
 
 .ProjectDescription{
