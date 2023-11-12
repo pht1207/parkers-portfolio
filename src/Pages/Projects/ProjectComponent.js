@@ -19,11 +19,6 @@ function ProjectComponent(props) {
 
     const URL = props.URL;
 
-    function imagePicker(){
-        if(props.imgSrc === 2){
-            
-        }
-    }
 
 
     function imageClick(){
@@ -45,8 +40,9 @@ function ProjectComponent(props) {
                 </ul>
             </div>
 
-            <figure className='ProjectFigure'>
-                <img src={imageSource} className='ProjectImage' onClick={imageClick}></img>
+            <figure className='ProjectFigure' onClick={imageClick}>
+                <img src={imageSource} className='ProjectImage' ></img>
+                <figcaption>{URL}</figcaption>
             </figure>
 
         </div>
