@@ -9,5 +9,19 @@
     align-items: center;
     justify-content: space-around;
     padding:0;
-    margin-left:12px
 }
+
+
+
+
+
+@media (min-aspect-ratio: 5/4) {
+    .ProjectComponentList{
+        margin-left:0px
+    }
+  }
+  @media (max-aspect-ratio: 5/4) {
+    .ProjectComponentList{
+        margin-left:12px
+    }
+  }
