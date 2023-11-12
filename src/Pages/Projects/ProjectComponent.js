@@ -18,6 +18,7 @@ function ProjectComponent(props) {
     const description5 = props.description5;
 
     const URL = props.URL;
+    const shownURL = props.shownURL;
 
 
 
@@ -42,7 +43,7 @@ function ProjectComponent(props) {
 
             <figure className='ProjectFigure' onClick={imageClick}>
                 <img src={imageSource} className='ProjectImage' ></img>
-                <figcaption>{URL}</figcaption>
+                <figcaption>{shownURL}</figcaption>
             </figure>
 
         </div>

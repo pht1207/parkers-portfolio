@@ -16,7 +16,6 @@
 
 @media (min-aspect-ratio: 5/4) {
     .ProjectComponent{
-        max-width: 100%;
         margin: 3em;
         margin-top:0;
         height: 80%;
@@ -54,6 +53,9 @@
     max-width: 50%;
     align-self: start;
 }
+.ProjectDescription h1{
+    font-size: calc(10px + 2vmin);
+}
 .DescriptionList{
     text-align: start;
     font-size: calc(1px + 2vmin);
@@ -68,13 +70,17 @@
 .ProjectFigure{
     height: 100%;
     margin-right:1em;
+    max-width: 100%;
+    overflow: hidden;
 }
 .ProjectFigure:hover{
     cursor: pointer;
+}
+.ProjectFigure figcaption{
+    width:100%;
 }
 .ProjectImage{
     width: 100%;
     border-radius: 1em;
     box-shadow: .5em .5em .5em #00000070;
-
 }
