@@ -56,14 +56,14 @@ function Projects() {
 
                 description1="This is an application that functions as a homepage, shows the weather, and has settings where you can change your name for a customized greeting. This is how it functions:"
 
-                title2="File Input: "
-                description2="Users input their stl files and select a desired print quality. The file is then sent to the backend."
-                title3="Backend Processing: "
-                description3="The backend parses their stl file to gcode and presents the 3D gcode object to them to be viewed."
-                title4="3D Preview: "
-                description4="The user can then add the gcode order to their cart and purchase it via Stripe.js."
-                title5="Order and Payment: "
-                description5="The user can then add the gcode order to their cart and purchase it via Stripe.js."
+                title2="Location/Weather: "
+                description2="The default zip code is 75081, the user can enter their own zipcode and it will be sent to the backend. The backend fetches geocoordinates of that zipcode using OpenWeather's api, and then fetches the weather data using another api call to OpenWeather."
+                title3="Change Background: "
+                description3="The background can be changed by clicking the menu icon in the top left and selecting 'Change Background'. An array of backgrounds contained within the server will be rendered and the user may select which one they want. A customize background can also be entered via entering it's URL at the top of the window."
+                title4="Settings: "
+                description4="There is a settings selection the user may use. They may enter their name for a custom greeting, change the temperature view to celcius/fahrenheit, this menu is where their zipcode is changed as well."
+                title5="Search bar: "
+                description5="There is a search bar the user can use to perform a search using Google."
                 />
 
                 <ProjectComponent 
