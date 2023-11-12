@@ -2,9 +2,6 @@ import ProjectComponent from './ProjectComponent';
 import './ProjectsPage.css'
 import { useEffect, useState } from 'react';
 
-import PrintAppImage from '../../images/ProjectsImages/PrintAppScreenshot1.png'
-import TranscodeAppImage from '../../images/ProjectsImages/TranscodeAppScreenshot1.png'
-
 
 function Projects() {
 
@@ -72,7 +69,7 @@ function Projects() {
                 <ProjectComponent 
                 title="Fitbit Application"
                 URL="gallery.fitbit.com/details/ed21bbe4-caf8-4bd3-9b4a-d55cbd57319f"
-                imgSrc="../../images/ProjectsImages/FitbitAppScreenshot1.png"
+                imgSrc="FitbitAppScreenshot1.png"
 
                 description1="This is a simple application designed for Fitbits that fetches data from api endpoints and displays it on the screen. This is how it works:"
 

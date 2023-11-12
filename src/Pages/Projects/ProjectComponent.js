@@ -1,7 +1,5 @@
 import './ProjectComponent.css'
-import { useEffect, useState } from 'react';
-import PrintAppImage from '../../images/ProjectsImages/PrintAppScreenshot1.png'
-import TranscodeAppImage from '../../images/ProjectsImages/TranscodeAppScreenshot1.png'
+//import { useEffect, useState } from 'react';
 
 
 function ProjectComponent(props) {
