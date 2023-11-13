@@ -20,15 +20,16 @@ function NavigationComponent(props) {
         <Router>
             <nav className="NavigationFlexBox">
                 <Link to="/">Home</Link>
-                <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>
+                <Link to="/about">About Me</Link>
                 {/*<Link to="/resume">Resume</Link>*/}
             </nav>
             
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/about" element={<AboutMePage />} />
                 <Route path="/projects" element={<ProjectsPage />} />
+                <Route path="/about" element={<AboutMePage />} />
+
                 {/*<Route path="/resume" element={<HiMyNameIs />} />*/}
                 {/* Other routes */}
             </Routes>
