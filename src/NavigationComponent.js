@@ -22,14 +22,14 @@ function NavigationComponent(props) {
                 <Link to="/">Home</Link>
                 <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
+                {/*<Link to="/resume">Resume</Link>*/}
             </nav>
             
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/about" element={<AboutMePage />} />
                 <Route path="/projects" element={<ProjectsPage />} />
-                <Route path="/resume" element={<HiMyNameIs />} />
+                {/*<Route path="/resume" element={<HiMyNameIs />} />*/}
                 {/* Other routes */}
             </Routes>
         </Router>

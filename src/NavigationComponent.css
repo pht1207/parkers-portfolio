@@ -2,11 +2,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-size: x-large;
+    width: 100%;
 }
 
 .NavigationFlexBox a{
     text-decoration: none;
     padding:.5em;
+    font-size: calc(12px + 2vmin);
 }
