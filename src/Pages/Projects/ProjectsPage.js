@@ -21,13 +21,13 @@ function Projects() {
                 description2="Users input their stl files and select a desired print quality. The file is then sent to the backend."
 
                 title3="Backend Processing: "
-                description3="The backend parses their stl file to gcode, sends it back to the frontend application."
+                description3="The backend parses the stl file to gcode using prusaslicer, a 3d printing program. Once complete, the backend sends the gcode file to the frontend application."
 
                 title4="3D Preview: "
-                description4="The user can then view or reparse the gcode file."
+                description4="Once recieved, the user can preview their gcode file, see how the file may be printed, how much it will cost them, etc. They may also reparse their file and have it done at a different quality than they originally selected."
 
                 title5="Order and Payment: "
-                description5="The user can then add the gcode order to their cart and purchase it via Stripe.js."
+                description5="The user may then add the gcode order to their cart. Once satisified, the user may checkout and pay for their order via Stripe.js."
                 />
 
                 <ProjectComponent 
