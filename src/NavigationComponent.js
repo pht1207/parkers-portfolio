@@ -29,7 +29,6 @@ function NavigationComponent(props) {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/projects" element={<ProjectsPage />} />
                 <Route path="/about" element={<AboutMePage />} />
-
                 {/*<Route path="/resume" element={<HiMyNameIs />} />*/}
                 {/* Other routes */}
             </Routes>
