@@ -1,6 +1,11 @@
 .ContactDiv{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+    justify-content: center;
+
 }
 
 
@@ -31,7 +36,7 @@
 
 .IconFlexbox *{
     width: 10%;
-    height: 10%
+    height: 100%
 
 }
 

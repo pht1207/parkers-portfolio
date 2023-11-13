@@ -5,7 +5,6 @@ import ContactInfo from './ContactInfo'
 
 function Home() {
   return (
-    <div className="Home">
         <div className='Opening'>
             <HiMyNameIs speed={100} html={
             <>
@@ -14,8 +13,6 @@ function Home() {
             />
             <ContactInfo/>
         </div>
-        <div className='InvisibleDiv'/>
-    </div>
   );
 }
 
