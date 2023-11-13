@@ -41,9 +41,9 @@ function ProjectComponent(props) {
                 </ul>
             </div>
 
-            <figure className='ProjectFigure' onClick={imageClick}>
-                <img src={imageSource} className='ProjectImage' ></img>
-                <figcaption>{shownURL}</figcaption>
+            <figure className='ProjectFigure'>
+                <img src={imageSource} className='ProjectImage' onClick={imageClick}></img>
+                <figcaption onClick={imageClick}>{shownURL}</figcaption>
             </figure>
 
         </div>

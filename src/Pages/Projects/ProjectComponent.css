@@ -18,7 +18,7 @@
     .ProjectComponent{
         margin: 3em;
         margin-top:0;
-        height: 80%;
+        height: 100%;
     }
     .ProjectDescription ul{
         padding:1em;
@@ -76,15 +76,16 @@
     flex-direction: column;
     justify-content: center;
 }
-.ProjectFigure:hover{
-    cursor: pointer;
-}
+
 .ProjectFigure figcaption{
-    width:100%;
     justify-self: right;
+    cursor: pointer;
+    width: fit-content;
 }
 .ProjectImage{
     width: 100%;
     border-radius: 1em;
     box-shadow: .5em .5em .5em #00000070;
+    cursor: pointer;
+
 }
