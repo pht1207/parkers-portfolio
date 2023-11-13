@@ -1,17 +1,27 @@
 .ProjectComponent{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     
     border-style: solid;
     border-width: .1em;
     border-radius: 1em;
-
     margin-bottom: 2em;
     margin-top: 0;
     width: 100%;
-    
+}
+.ProjectComponent h1{
+    width: fit-content;
+    font-size: calc(10px + 2vmin);
+
+}
+.ProjectContents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 @media (min-aspect-ratio: 5/4) {
@@ -22,10 +32,12 @@
     }
     .ProjectDescription ul{
         padding:1em;
+        width:100%;
         
     }
     .ProjectFigure{
         margin:1em;
+        width:50%
     }
   }
   @media (max-aspect-ratio: 5/4) {
@@ -44,7 +56,6 @@
   }
 
 .ProjectHeader{
-    font-size: calc(10px + 2vmin);
 }
   
 
@@ -80,7 +91,6 @@
 .ProjectFigure figcaption{
     justify-self: right;
     cursor: pointer;
-    width: fit-content;
 }
 .ProjectImage{
     width: 100%;

@@ -28,10 +28,9 @@ function ProjectComponent(props) {
 
     return (
         <div className='ProjectComponent'>
-
+        <h1>{title}</h1>
+        <div className='ProjectContents'>
             <div className='ProjectDescription'>
-                <h1>{title}</h1>
-                <br/>
                 <ul className='DescriptionList'>
                     <li><strong>{description1}</strong></li>
                     <li><strong>{title2}</strong>{description2}</li>
@@ -43,9 +42,9 @@ function ProjectComponent(props) {
 
             <figure className='ProjectFigure'>
                 <img src={imageSource} className='ProjectImage' onClick={imageClick}></img>
-                <figcaption onClick={imageClick}>{shownURL}</figcaption>
+                {/* (Hidden because in mobile mode i) <figcaption onClick={imageClick}>{shownURL}</figcaption>*/}
             </figure>
-
+            </div>
         </div>
     );
     }
