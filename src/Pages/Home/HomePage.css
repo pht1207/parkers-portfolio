@@ -12,7 +12,8 @@
 
   @media (min-aspect-ratio: 5/4) {
     .Opening{
-      
+      margin-top: calc(10px + 20vmin);
+
     }
   }
   @media (max-aspect-ratio: 5/4) {
