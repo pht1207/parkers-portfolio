@@ -1,6 +1,7 @@
 import './HomePage.css';
 import HiMyNameIs from './HiMyNameIs';
 import ContactInfo from './ContactInfo'
+import DynamicallyLoadedText from './DynamicallyLoadedText'
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
             }
             />
             <ContactInfo/>
+            <DynamicallyLoadedText inputText="test"/>
         </div>
   );
 }
