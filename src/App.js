@@ -5,9 +5,7 @@ import NavigationComponent from './NavigationComponent';
 function App() {
   return (
     <div className="App">
-        <div className='InsideApp'>
         <NavigationComponent/>
-        </div>
     </div>
   );
 }
