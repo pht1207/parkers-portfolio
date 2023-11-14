@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 function Projects() {
 
     return (
-        <div className='ProjectsDiv'>
+        <div className='ProjectDiv'>
             <h1 className='ProjectHeader'>This is the page that showcases my projects!</h1>
                 <ul className='ProjectComponentList'>
                 <ProjectComponent
