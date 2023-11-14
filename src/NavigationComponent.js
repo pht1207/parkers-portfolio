@@ -8,10 +8,9 @@ import {
     Routes
   } from "react-router-dom";
 
-import HiMyNameIs from './Pages/Home/HiMyNameIs';
 
 import ProjectsPage from './Pages/Projects/ProjectsPage';
-import AboutMePage from './Pages/AboutMePage';
+import AboutMePage from './Pages/AboutMe/AboutMePage';
 import HomePage from './Pages/Home/HomePage';
 
 function NavigationComponent(props) {
