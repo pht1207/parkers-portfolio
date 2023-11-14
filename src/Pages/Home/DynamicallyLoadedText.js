@@ -5,15 +5,16 @@ function DynamicallyLoadedText(props) {
     const propText = props.inputText;
     const [dynamicText, setDynamicText] = useState("");
 
-    //Runs when the component is first loadedd
+    //Runs when the component is first loaded
+    let i = 0;
     useEffect(() =>{
-        for(let i = 0; i <= propText.length; i++){
-
+      if(i <= propText.length){
         const timer = setTimeout(() => {
             setDynamicText(dynamicText+(propText.charAt(i)));
+            i++;
         }, 1000)
-    }
-    },[dynamicText])
+      }
+    },[])
 
   return (
     <div className="Test">
