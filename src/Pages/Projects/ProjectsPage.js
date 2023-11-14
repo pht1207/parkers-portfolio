@@ -73,7 +73,7 @@ function Projects() {
                 <ProjectComponent 
                 title="Fitbit Application"
                 URL="gallery.fitbit.com/details/ed21bbe4-caf8-4bd3-9b4a-d55cbd57319f"
-                shownURL="fitbit.com"
+                shownURL="gallery.fitbit.com"
                 imgSrc="FitbitAppScreenshot1.png"
 
                 description1="This is a simple application designed for Fitbits that fetches data from api endpoints and displays it on the screen. This is how it works:"

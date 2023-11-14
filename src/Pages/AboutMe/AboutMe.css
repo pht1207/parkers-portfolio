@@ -20,6 +20,10 @@
     width:50%;
 }
 
+.AboutMe div h2{
+    font-size: calc(10px + 2vmin);
+}
+
 .AboutMe ul li{
     text-align: left;
     list-style: none;
@@ -30,11 +34,15 @@
 
 
 
+
 @media (min-aspect-ratio: 5/6) {
     .AboutMe div ul{
         padding:0;
         list-style: none;
         margin-left:3em; margin-right: 3em; margin-top:1em;
+    }
+    .AboutMe ul li{
+        line-height: 1.5em;
     }
 }
 
@@ -44,6 +52,8 @@
         padding:0;
         list-style: none;
         margin-left:1em; margin-right: 1em; margin-top:1em;
+    }
+    .AboutMe ul li{
     }
 }
 
