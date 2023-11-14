@@ -31,7 +31,7 @@ function ProjectComponent(props) {
         <h1>{title}</h1>
         <div className='ProjectFlexBox'>
             <div className='ProjectDescription'>
-                <ul className='DescriptionList'>
+                <ul>
                     <li><strong>{description1}</strong></li>
                     <li><strong>{title2}</strong>{description2}</li>
                     <li><strong>{title3}</strong>{description3}</li>
@@ -41,7 +41,7 @@ function ProjectComponent(props) {
             </div>
 
             <figure className='ProjectFigure'>
-                <img src={imageSource} className='ProjectImage' onClick={imageClick}></img>
+                <img src={imageSource} onClick={imageClick}></img>
                 <figcaption onClick={imageClick}>{shownURL}</figcaption>
             </figure>
             </div>

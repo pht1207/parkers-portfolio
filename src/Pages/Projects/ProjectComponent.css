@@ -16,20 +16,30 @@
 }
 .ProjectFlexBox{
     display: flex;
-
 }
 
 
 @media (min-aspect-ratio: 5/6) {
+    .ProjectComponent{
+        margin-left:4em; margin-right:4em;
+    }
     .ProjectFlexBox{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;    
         margin:1em;
-
     }
-  }
-  @media (max-aspect-ratio: 5/6) {
+    .ProjectDescription{
+        width:70%;
+        margin-right: 5em;
+    }
+    .ProjectFigure img{
+        width:30%;
+    }
+}
+
+
+@media (max-aspect-ratio: 5/6) {
     .ProjectFlexBox{
         flex-direction: column;
         justify-content: center;
@@ -45,20 +55,19 @@
     .ProjectDescription ul li{
         font-size: calc(6px + 2vmin);
     }
-  }
+}
 
 
 
 .ProjectDescription h1{
     font-size: calc(10px + 2vmin);
 }
-.DescriptionList{
-    text-align: start;
-    font-size: calc(1px + 2vmin);
-}
 
-.DescriptionList *{
+
+.ProjectDescription ul li{
+    font-size: calc(1px + 2vmin);
     margin-bottom: 1em;
+    text-align: start;
 }
 
 
@@ -73,14 +82,12 @@
     flex-direction: column;
 }
 
-.ProjectFigure figcaption{
-    cursor: pointer;
-}
-.ProjectImage{
+.ProjectFigure img{
     width: 100%;
     border-radius: 1em;
     box-shadow: .5em .5em .5em #00000070;
     cursor: pointer;
-
-
+}
+.ProjectFigure figcaption{
+    cursor: pointer;
 }
