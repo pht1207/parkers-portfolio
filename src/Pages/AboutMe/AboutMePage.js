@@ -25,7 +25,7 @@ function AboutMe(props) {
                 <ul>
                     <li>Outside of coding, I like kayaking and spending time outside with friends.</li>
                     <li>When I'm not doing that, I like to persue no-code computer projects, sometimes I do needless projects with electronics and I also play some video games.</li>
-                    <li>I have a dog, her name is Patches, she is a rescue, she's a very good puppy :).</li>
+                    <li>I have a dog, her name is Patches. She's a rescue, she's a very good puppy, we love her very much :).</li>
                     <li></li>
                 </ul>
             </div>
