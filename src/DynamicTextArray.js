@@ -1,12 +1,19 @@
 import React, { useEffect, useState } from 'react';
 
-function DynamicText(props) {
+function DynamicTextArray(props) {
   const [displayedText, setDisplayedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
-  const propText = props.customElement.props.children;
-  const type = props.customElement.type;
-  const className = props.customElement.props.className;
-  console.log(props.elementArray)
+
+  const propArray = props.elementArray;
+  console.log(propArray)
+
+  const propText = props.elementArray[0].props.children;
+  const type = props.elementArray[0].type;
+  const className = props.elementArray[0].props.className;
+
+
+
+
 
   useEffect(() => {
     // Check if we still have characters left to add
@@ -16,7 +23,7 @@ function DynamicText(props) {
         setDisplayedText(displayedText + propText.charAt(currentIndex));
         // Move to the next character
         setCurrentIndex(currentIndex + 1);
-      }, 100); // Adjust the timing for typing speed
+      }, 50); // Adjust the timing for typing speed
 
       // Cleanup function to clear the timer
       return () => clearTimeout(timer);
@@ -28,4 +35,4 @@ function DynamicText(props) {
   return <div className={className}>{dynamicComponent}</div>;
 }
 
-export default DynamicText;
+export default DynamicTextArray;
