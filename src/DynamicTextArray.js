@@ -4,14 +4,32 @@ function DynamicTextArray(props) {
   const [displayedText, setDisplayedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const propArray = props.elementArray;
-  console.log(propArray)
+  const [dynamicElementArray, setDynamicElementArray] = useState([]);
+
 
   const propText = props.elementArray[0].props.children;
   const type = props.elementArray[0].type;
   const className = props.elementArray[0].props.className;
 
 
+//Constructor for creating user objects for the users[] array.
+function dynamicElementObject(propText, type, className){
+  this.propText = propText;
+  this.type = type;
+  this.className = className;
+}
+
+  //Turns all the props into objects on render so they can be accessed
+  let propDataArray = [];
+  useEffect(() => {
+    for(let i = 0; i < props.elementArray.length; i++){
+      propDataArray.push(dynamicElementObject(
+        props.elementArray[i].props.children,
+        props.elementArray[i].type,
+        props.elementArray[i].props.className
+        ))
+    }
+  },[])
 
 
 
