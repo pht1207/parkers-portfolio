@@ -1,5 +1,6 @@
 import './HiMyNameIs.css'
 import { useEffect, useState } from 'react';
+import DynamicText from '../../DynamicText';
 
 function HiMyNameIs(props) {
     const [inputtedText, setInputtedText] = useState(props.html)

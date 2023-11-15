@@ -1,7 +1,7 @@
 import './HomePage.css';
 import HiMyNameIs from './HiMyNameIs';
 import ContactInfo from './ContactInfo'
-import DynamicallyLoadedText from './DynamicallyLoadedText'
+import DynamicText from '../../DynamicText';
 
 
 function Home() {
@@ -14,7 +14,7 @@ function Home() {
             }
             />
             <ContactInfo/>
-            <DynamicallyLoadedText customElement={h1Element}/>
+            <DynamicText customElement={h1Element}/>
         </div>
   );
 }
