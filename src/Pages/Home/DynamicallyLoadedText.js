@@ -19,10 +19,10 @@ function DynamicallyLoadedText(props) {
 
 
     async function delayedForLoop(){
-        for(let i = 0; i < 5; i++){
-          await delay(1000);
-          await setDisplayedText(displayedText => displayedText + "a")
-          console.log("a");
+        for(let i = 0; i < propText.length; i++){
+          console.log(propText.charAt(i));
+          await delay(300);
+          await setDisplayedText(displayedText => displayedText + propText.charAt(i))
       }
     }
 
