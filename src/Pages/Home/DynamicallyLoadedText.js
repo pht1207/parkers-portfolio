@@ -2,6 +2,7 @@ import {React, useEffect, useState} from "react";
 
 
 function DynamicallyLoadedText(props) {
+  console.log(props.customElement)
     //const propText = props.inputText;
     const [displayedText, setDisplayedText] = useState("a");
     //Runs when the component is first loaded
@@ -27,6 +28,7 @@ function DynamicallyLoadedText(props) {
   return (
     <div className="Test">
         <p>{displayedText}</p>
+        {props.customElement}
     </div>
   );
 }
