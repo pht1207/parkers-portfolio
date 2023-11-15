@@ -1,10 +1,16 @@
-import {React, useEffect, useState} from "react";
+import { useEffect, useState, createElement} from "react";
+import React, { Component } from 'react'
 
 
 function DynamicallyLoadedText(props) {
-  console.log(props.customElement)
     //const propText = props.inputText;
-    const [displayedText, setDisplayedText] = useState("a");
+    const [displayedText, setDisplayedText] = useState("");
+    const propText = props.customElement.props.children;
+    const type = props.customElement.type;
+    const testComponent = React.createElement(type, null, displayedText);
+
+
+
     //Runs when the component is first loaded
     useEffect(() => {
       delayedForLoop();
@@ -24,11 +30,15 @@ function DynamicallyLoadedText(props) {
         return new Promise(resolve => setTimeout(resolve, ms));
       }
 
+    
+
+
+
+
 
   return (
     <div className="Test">
-        <p>{displayedText}</p>
-        {props.customElement}
+        {testComponent}
     </div>
   );
 }
