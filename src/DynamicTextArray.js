@@ -6,6 +6,7 @@ function DynamicText(props) {
   const propText = props.customElement.props.children;
   const type = props.customElement.type;
   const className = props.customElement.props.className;
+  console.log(props.elementArray)
 
   useEffect(() => {
     // Check if we still have characters left to add

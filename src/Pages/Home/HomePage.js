@@ -14,7 +14,7 @@ function Home() {
             }
             />
             <ContactInfo/>
-            <DynamicText customElement={h1Element}/>
+            <DynamicText customElement={h1Element} elementArray={[h1Element, h1Element]}/>
         </div>
   );
 }
