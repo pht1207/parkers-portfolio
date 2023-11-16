@@ -19,7 +19,7 @@ function Home() {
             <HiMyNameIs/>
             <ContactInfo/>
             {/*<DynamicText customElement={h1Element} elementArray={[h1Element, h1Element]}/>*/}
-            <DynamicTextArray elements={elementsArray}/>
+            {/*<DynamicTextArray elements={elementsArray}/>*/}
 
         </div>
   );

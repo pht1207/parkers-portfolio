@@ -15,7 +15,7 @@ function DynamicText(props) {
         setDisplayedText(displayedText + propText.charAt(currentIndex));
         // Move to the next character
         setCurrentIndex(currentIndex + 1);
-      }, 10000); // Adjust the timing for typing speed
+      }, 50); // Adjust the timing for typing speed
 
       // Cleanup function to clear the timer
       return () => clearTimeout(timer);

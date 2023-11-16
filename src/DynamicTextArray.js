@@ -10,7 +10,7 @@ function TypingText({ text, type }) {
       const timer = setTimeout(() => {
         setDisplayedText(currentText => currentText + text.charAt(currentIndex));
         setCurrentIndex(currentIndex + 1);
-      }, 100); // Adjust the timing for typing speed
+      }, 1000); // Adjust the timing for typing speed
 
       return () => clearTimeout(timer);
     }
@@ -28,6 +28,13 @@ function TypingText({ text, type }) {
 
 
 function DynamicallyLoadedText({ elements }) {
+  console.log(elements)
+  const [loadedText, setLoadedText] = useState(elements);
+
+  function createTextArray(){
+    
+  }
+
   return (
     <div>
       {elements.map((element, index) => (
@@ -37,6 +44,7 @@ function DynamicallyLoadedText({ elements }) {
           type={element.type}
         />
       ))}
+      {loadedText}
     </div>
   );
 }
