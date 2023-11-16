@@ -6,6 +6,7 @@ function DynamicText(props) {
   const propText = props.customElement.props.children;
   const type = props.customElement.type;
   const className = props.customElement.props.className;
+  const speed = props.speed;
 
   useEffect(() => {
     // Check if we still have characters left to add
@@ -15,7 +16,7 @@ function DynamicText(props) {
         setDisplayedText(displayedText + propText.charAt(currentIndex));
         // Move to the next character
         setCurrentIndex(currentIndex + 1);
-      }, 50); // Adjust the timing for typing speed
+      }, speed); // Adjust the timing for typing speed
 
       // Cleanup function to clear the timer
       return () => clearTimeout(timer);
