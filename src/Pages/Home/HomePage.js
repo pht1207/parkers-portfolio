@@ -16,13 +16,9 @@ function Home() {
   ];
   return (
         <div className='Opening'>
-            <HiMyNameIs speed={100} html={
-            <>
-            </>
-            }
-            />
+            <HiMyNameIs/>
             <ContactInfo/>
-            <DynamicText customElement={h1Element} elementArray={[h1Element, h1Element]}/>
+            {/*<DynamicText customElement={h1Element} elementArray={[h1Element, h1Element]}/>*/}
             <DynamicTextArray elements={elementsArray}/>
 
         </div>
