@@ -1,10 +1,4 @@
 import './ContactInfo.css'
-import { useEffect, useState } from 'react';
-//import ProfilePic from '/images/Me.jpg'
-//import GitHubIcon from '/images/github-mark-white.png'
-//import LinkedInIcon from '/images/LinkedIn.png'
-//import ResumeIcon from '/images/ResumeIcon.png'
-
 
 function HiMyNameIs(props) {
 
