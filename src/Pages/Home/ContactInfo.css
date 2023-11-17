@@ -3,19 +3,19 @@
     flex-direction: column;
 }
 
+.ProfilePic{
+  border-radius: 100em;
+  width: 100%;
+  margin-bottom: .5em;
+}
+
 @media (min-aspect-ratio: 4/4) {
-  .ProfilePic{
-    border-radius: 100em;
-    width: 100%;
-  }
+
 }
 
 @media (max-aspect-ratio: 4/4) {
 
-  .ProfilePic{
-    border-radius: 100em;
-    width: 100%;
-  }
+
 }
   
 
