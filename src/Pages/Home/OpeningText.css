@@ -17,6 +17,8 @@
     .OpeningTextDiv{
         flex: 80%;
         padding:1em;
+        align-content: center;
+
     }
   }
   @media (max-aspect-ratio: 4/4) {

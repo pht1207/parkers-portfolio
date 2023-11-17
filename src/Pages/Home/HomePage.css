@@ -8,23 +8,29 @@
   
 
 
-  @media (min-aspect-ratio: 4/4) {
+  @media (min-aspect-ratio: 6/4) {
     .Opening{
       margin-top: calc(10px + 20vmin);
       flex-direction: row;
-      justify-content: space-around;
-
-
+      justify-content: space-between;
+    }
+    .Opening .ContactDiv{
+      width: 10%;
+      align-self: center;
+      justify-self: center;
     }
   }
 
-  @media (max-aspect-ratio: 4/4) {
+  @media (max-aspect-ratio: 6/4) {
     .Opening{
       height: 90vh;
       flex-direction: column;
       justify-content: space-between;
-      align-content: space-around;
-
-
+      align-content: center;
+    }
+    .Opening .ContactDiv{
+      width: 50%;
+      justify-self: center;
+      align-self: center;
     }
   }

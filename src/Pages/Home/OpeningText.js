@@ -1,10 +1,8 @@
-import './HiMyNameIs.css'
+import './OpeningText.css'
 import { useEffect, useState } from 'react';
 import DynamicText from '../../DynamicText';
 
-function HiMyNameIs(props) {
-    const [inputtedText, setInputtedText] = useState(props.html)
-    const [displayedText, setDisplayedText] = useState([])
+function OpeningText(props) {
 
     const dynamicElementText = ("Hi, my name is, \nParker Throneberry. \n\nI like to make things using JavaScript :) \n\nI am a full stack web dev who specializes in engineering web platforms. \n\nI graduate from UNTD in Spring of 2024 with a bachelors in Information Technology!");
 
@@ -18,4 +16,4 @@ function HiMyNameIs(props) {
     );
     }
     
-    export default HiMyNameIs;
+    export default OpeningText;
