@@ -43,7 +43,8 @@
 
 @media (min-aspect-ratio: 4/4) {
     .AboutMePage .ContactDiv{
-        width:10%
+        max-width:15%;
+        margin:1em;
     }
     .AboutMeSections div ul{
         padding:0;
@@ -52,6 +53,7 @@
     }
     .AboutMeSections ul li{
         line-height: 1.5em;
+        font-size: calc(8px + 2vmin);
     }
 
 }
@@ -59,7 +61,9 @@
 
 @media (max-aspect-ratio: 4/4) {
     .AboutMePage .ContactDiv{
-        width:50%
+        width:50%;
+        margin:1em;
+
     }
     .AboutMeSections div ul{
         padding:0;
@@ -67,6 +71,10 @@
         margin-left:1em; margin-right: 1em; margin-top:1em;
     }
     .AboutMeSections ul li{
+        font-size: calc(8px + 1.8vmin);
+    }
+    .MobileHidden{
+        display: none;
     }
 
 
