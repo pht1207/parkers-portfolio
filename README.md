@@ -1,6 +1,6 @@
 # This is the code for my portfolio website
 
-This is a very React project with three pages, accessed via React Router.
+It is a simple React project with three pages, accessed via React Router.
 
 ## Available Pages
 
