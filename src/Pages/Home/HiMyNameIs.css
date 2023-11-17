@@ -5,10 +5,12 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    
 }
 .OpeningTextDiv p{
     text-align: left;
     font-size: calc(10px + 2vmin);
+    
 }
 
 

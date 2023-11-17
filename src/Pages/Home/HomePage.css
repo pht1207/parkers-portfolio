@@ -1,22 +1,29 @@
 
   .Opening{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    justify-self: center;
     width: 100%;
     font-size: calc(10px + 2vmin);
     height: 100%;
   }
   
 
+
   @media (min-aspect-ratio: 5/4) {
     .Opening{
       margin-top: calc(10px + 20vmin);
+      flex-direction: row;
+      justify-content: space-around;
+
 
     }
   }
+
   @media (max-aspect-ratio: 5/4) {
     .Opening{
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: space-between;
+
+
     }
   }

@@ -12,7 +12,7 @@ function AboutMe(props) {
             <div className='WhoIAm'>
                 <h2>Who I Am</h2>
                 <ul>
-                    <li>I'm an information technology student who is about to graduate from UNT at Dallas.</li>
+                    <li className='typing-effect'>I'm an information technology student who is about to graduate from UNT at Dallas.</li>
                     <li>My goal is to land a career in web development. I'd like to be a full stack developer.</li>
                     <li>I have experience in both frontend and backend programming, I enjoy both quite a bit. To me, the appeal has to be the reward of being able to see my finished useable product.</li>
                 </ul>
