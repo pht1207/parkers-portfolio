@@ -1,34 +1,36 @@
 
-  .Opening{
+  .Homepage{
     display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(8px + 2vmin);
   }
   
 
-  @media (min-aspect-ratio: 6/4) {
-    .Opening{
-      margin-top: calc(10px + 20vmin);
+  @media (min-aspect-ratio: 4/4) {
+    .Homepage{
+      margin-top: 2em;
       flex-direction: row;
-      justify-content: space-between;
     }
-    .Opening .ContactDiv{
-      width: 10%;
-      align-self: center;
-      justify-self: center;
+    .Homepage .ContactDiv{
+      width: 20%;
+      margin-right: 2em;
+    }
+    .Homepage .OpeningTextDiv{
+      width: 60%;
     }
   }
 
-  @media (max-aspect-ratio: 6/4) {
-    .Opening{
-      height: 90vh;
+  @media (max-aspect-ratio: 4/4) {
+    .Homepage{
       flex-direction: column;
       justify-content: space-between;
       align-content: center;
+      height: 90%;
     }
-    .Opening .ContactDiv{
-      justify-self: center;
+    .Homepage .ContactDiv{
       align-self: center;
+      margin:2em;
     }
   }

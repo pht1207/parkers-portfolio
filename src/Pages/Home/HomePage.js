@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react';
 function Home() {
 
   return (
-        <div className='Opening'>
+        <div className='Homepage'>
             <OpeningText/>
             <ContactInfo/>
         </div>

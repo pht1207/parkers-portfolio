@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    
+    margin:1em;
+
 }
 .OpeningTextDiv p{
     text-align: left;
@@ -12,17 +13,17 @@
     
 }
 
-
+/* Not needed
 @media (min-aspect-ratio: 4/4) {
     .OpeningTextDiv{
-        padding:1em;
         align-content: center;
-        width:70%
+        width:100%;
     }
   }
   @media (max-aspect-ratio: 4/4) {
     .OpeningTextDiv{
-        padding:1em;
         width:100%;
+        align-content: center;
     }
   }
+*/
