@@ -2,8 +2,8 @@
   .Opening{
     display: flex;
     width: 100%;
-    font-size: calc(10px + 2vmin);
     height: 100%;
+    font-size: calc(10px + 2vmin);
   }
   
 
