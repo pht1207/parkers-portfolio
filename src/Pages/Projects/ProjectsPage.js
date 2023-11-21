@@ -76,16 +76,16 @@ function Projects() {
                 shownURL="gallery.fitbit.com"
                 imgSrc="FitbitAppScreenshot.png"
 
-                description1="This is a simple application designed for Fitbits that fetches data from api endpoints and displays it on the screen. This is how it works:"
+                description1="This is an application designed for Fitbit watches that fetches data from an api endpoints and displays it on the screen."
 
-                title2="File Input: "
-                description2="Users input their stl files and select a desired print quality. The file is then sent to the backend."
-                title3="Backend Processing: "
-                description3="The backend parses their stl file to gcode and presents the 3D gcode object to them to be viewed."
-                title4="3D Preview: "
-                description4="The user can then add the gcode order to their cart and purchase it via Stripe.js."
-                title5="Order and Payment: "
-                description5="The user can then add the gcode order to their cart and purchase it via Stripe.js."
+                title2="Application Function: "
+                description2="The user inputs their API key into their settings page, and when the app is opened a GET request is made, fetching data from the appropriate API endpoint."
+                title3="Application Structure: "
+                description3="There are two applications embedded within this project. One runs on the watch, the other runs on the users smartphone. Both apps communicate with one another."
+                title4="Companion App: "
+                description4="The companion app is what is included on the smartphone. The API endpoint is generated here, the settings page is rendered and stored here and data is fetched from the API from the companion app. That data is then sent to the smart watch."
+                title5="Watch App: "
+                description5="The data object recieved from the companion app, that data is then processed and presented on the users smartwatch screen."
                 />
             </ul>
         </div>
