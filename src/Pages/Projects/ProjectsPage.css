@@ -1,5 +1,7 @@
 .ProjectDiv{
     height: 100%;
+    overflow-x: hidden;
+
 }
 
 .ProjectHeader{
@@ -13,6 +15,7 @@
     justify-content: space-around;
     padding:0;
     width: 100%;
+
 }
 
 
