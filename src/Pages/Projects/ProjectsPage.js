@@ -13,7 +13,7 @@ function Projects() {
                 title="3D Printing Application"
                 URL="print.parkert.dev"
                 shownURL="print.parkert.dev"
-                imgSrc="PrintAppScreenshot1.png"
+                imgSrc="PrintAppScreenshot.png"
 
                 description1="This is a 3D Printing application developed using React for the front end and Node.js for the backend. This is how it works:"
 
@@ -34,7 +34,7 @@ function Projects() {
                 title="Transcoding Application"
                 URL="transcoder.parkert.dev"
                 shownURL="transcoder.parkert.dev"
-                imgSrc="TranscodeAppScreenshot1.png"
+                imgSrc="TranscoderAppScreenshot.png"
 
                 description1="This application transcodes media to the H.265/HEVC codec, offering lossless compression on videos encoded in formats such as H.264"
 
@@ -56,7 +56,7 @@ function Projects() {
                 URL="home.parkert.dev"
                 shownURL="home.parkert.dev"
 
-                imgSrc="HomepageAppScreenshot1.png"
+                imgSrc="HomepageAppScreenshot.png"
 
                 description1="This is an application that functions as a homepage, shows the weather, and has settings where you can change your name for a customized greeting. This is how it functions:"
 
@@ -72,9 +72,9 @@ function Projects() {
 
                 <ProjectComponent 
                 title="Fitbit Application"
-                URL="gallery.fitbit.com/details/ed21bbe4-caf8-4bd3-9b4a-d55cbd57319f"
+                URL="gallery.fitbit.com/developer/ccfa021f-7862-42a9-bcdf-9756fbba286b"
                 shownURL="gallery.fitbit.com"
-                imgSrc="FitbitAppScreenshot1.png"
+                imgSrc="FitbitAppScreenshot.png"
 
                 description1="This is a simple application designed for Fitbits that fetches data from api endpoints and displays it on the screen. This is how it works:"
 
