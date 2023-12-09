@@ -9,11 +9,9 @@ function HiMyNameIs(props) {
         window.open("https://www.linkedin.com/in/parker-throneberry-91123b144/")
     }
     function ResumeIconClicked(){
-        const fileUrl = 'ParkerThroneberry_Resume.pdf'
-        console.log("test");
         const link = document.createElement('a');
-        link.href = fileUrl;
-        link.download = 'ParkerThroneberry_Resume.pdf'; // You can set the default filename here
+        link.href = "ParkerThroneberry_Resume.pdf";
+        link.download = 'ParkerThroneberry_Resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
