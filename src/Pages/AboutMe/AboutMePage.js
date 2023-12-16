@@ -24,7 +24,7 @@ function AboutMe(props) {
                     <h2>What I Do</h2>
                     <ul>
                         <li>Beyond coding, my hobbies include kayaking, spending time with friends and family, and I also enjoy playing games.</li>
-                        <li>I also enjoy pursuing no-code computer projects with and managing Linux servers that I own which allows me to expand my technical skills and expertise.</li>
+                        <li>I also enjoy pursuing no-code computer projects with Linux servers that I manage which allows me to expand my technical skills and expertise.</li>
                     </ul>
                 </div>
 
