@@ -23,7 +23,7 @@ function AboutMe(props) {
                 <div className='WhatIDo'>
                     <h2>What I Do</h2>
                     <ul>
-                        <li>Beyond coding, my hobbies include kayaking, spending time with friends and family, and I also enjoy playing games.</li>
+                        <li>Beyond coding, my hobbies include 3D-printing, kayaking, spending time with friends and family.</li>
                         <li>I also enjoy pursuing no-code computer projects with Linux servers that I manage which allows me to expand my technical skills and expertise.</li>
                     </ul>
                 </div>
