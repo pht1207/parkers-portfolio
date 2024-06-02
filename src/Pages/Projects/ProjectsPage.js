@@ -39,6 +39,21 @@ function Projects() {
                     description5="Successfully delivered a fully functional fitness application that allows users to manage their fitness goals and track their progress. The project demonstrated effective teamwork, technical proficiency, and leadership."
                 />
                 <ProjectComponent
+                title="Gigahorse Max Farm Viewer"
+                URL="gh-max-farm.parkert.dev"
+                shownURL="gh-max-farm.parkert.dev"
+                imgSrc="GigahorseScreenshot.png"
+                description1="Gigahorse Max Farm is an information viewer website displaying reported maximum farm sizes using the chia-gigahorse software."
+                title2="Data Collection: "
+                description2="The application gathers information from a .csv file and displays it on the website. Users can view GPU performance data and sort it by various variables."
+                title3="Backend Development: "
+                description3="Developed the backend using Node.js, Express, and MySQL. Implemented endpoints for retrieving GPU names, results, and additional data required for the frontend."
+                title4="Frontend Integration: "
+                description4="Built the frontend using React to display the collected data, allowing users to filter and sort results. Implemented dynamic updates and real-time data fetching."
+                title5="Automated Updates: "
+                description5="Set up a cron job to fetch and update the .csv file twice daily, ensuring the displayed information is always up-to-date."
+                />
+                <ProjectComponent
                     title="3D Printing Application"
                     URL="print.parkert.dev"
                     shownURL="print.parkert.dev"
