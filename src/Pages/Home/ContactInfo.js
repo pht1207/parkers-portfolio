@@ -6,7 +6,7 @@ function HiMyNameIs(props) {
         window.open("https://github.com/pht1207/")
     }
     function LinkedInIconClicked(){
-        window.open("https://www.linkedin.com/in/parker-throneberry-91123b144/")
+        window.open("https://www.linkedin.com/in/pht1207/")
     }
     function ResumeIconClicked(){
         const link = document.createElement('a');
