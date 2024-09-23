@@ -145,9 +145,9 @@ function App() {
         <Row>
           {(view === 'coding' ? codingProjects : itProjects).map((project, index) => (
             <Col key={index} md={12} className="mb-4">
-              <Card className="d-flex flex-row">
-                <Col md={8}>
-                  <Card.Body>
+              <Card className="d-flex flex-column flex-md-row">
+                <Col md={8} sm={12} className="d-flex">
+                  <Card.Body className="flex-grow-1">
                     <Card.Title className="text-center">{project.title}</Card.Title>
                     <Card.Text><strong>Description: </strong>{project.description}</Card.Text>
                     <Card.Text><strong>Features: </strong>{project.features}</Card.Text>
@@ -159,15 +159,15 @@ function App() {
                         </Button>
                       </div>
                     )}
-
                   </Card.Body>
                 </Col>
-                <Col md={4} className="d-flex align-items-center justify-content-center">
-                {project.image && (
-                  <img src={project.image} alt={`${project.title} screenshot`} className="img-fluid" />
-                )}
+                <Col md={4} sm={12} className="d-flex align-items-center justify-content-center">
+                  {project.image && (
+                    <img src={project.image} alt={`${project.title} screenshot`} className="img-fluid" />
+                  )}
                 </Col>
               </Card>
+
             </Col>
           ))}
         </Row>
@@ -176,14 +176,15 @@ function App() {
       <Container className="my-5" id="about">
         <h1 className="text-center mb-5">About Me</h1>
         <p className="text-center">
-          I am Parker Throneberry, a passionate developer specializing in programming and IT projects.
-          I enjoy working with various technologies and am always eager to learn and take on new challenges.
+          My name is Parker Throneberry, I'm a passionate developer specializing in programming and IT.<br/>
+          I enjoy working with various technologies and am always eager to learn and take on new challenges.<br/>
+
         </p>
       </Container>
 
       <Container className="text-center my-5" id="contact">
         <h2>Contact Me</h2>
-        <p>Feel free to reach out to me on any of these platforms.</p>
+        <p>Feel free to reach out on Linkedin, Check out my Github, or click the third icon to view my resume.</p>
         <div className="d-flex justify-content-center">
           <a href="https://github.com/pht1207" target="_blank" rel="noreferrer" className="mx-2">
             <FaGithub size={40} />
