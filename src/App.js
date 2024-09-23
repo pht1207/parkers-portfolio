@@ -69,14 +69,14 @@ function App() {
   const itProjects = [
     {
       title: 'Smart Birdfeeder',
-      description: '3D printed a smart birdfeeder utilizing AI for recognizing different bird species.',
+      description: '3D printed a smart birdfeeder. Uses a raspberry pi and webcam to run an RTSP server which is monitored by Frigate. When birds are detected on stream, AI is used for recognizing different bird species.',
       features: 'AI Recognition, Docker Deployment, Real-time Monitoring',
       techUsed: 'Docker, TensorRT Frigate',
       image: '/project-images/BirdfeederPicture.jpg'
     },
     {
       title: 'Proxmox Virtualization Environment',
-      description: 'Hosting a virtualization platform hosting various projects in isolated containers.',
+      description: 'Set up a Proxmox virtualization platform for hosting various projects in isolated containers.',
       features: 'VM Management, Snapshots, Backup and Restore',
       techUsed: 'Proxmox, LXC, KVM',
       image: '/project-images/ProxmoxScreenshot.png'
