@@ -1,41 +1,175 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
-  background-color: #282c34;
-  font-family: 'Courier New',  Courier, 'Lucida Console';
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
-
-*{
-  background-color: #282c34;
-  color:#00FF41;
-  box-sizing: border-box;
-  margin:0;
+/* Navbar Styles */
+.navbar-dark .navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
-* {
-  scrollbar-width:none;
-  scrollbar-color: #00FF41 #282c34;
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-right: 15px;
 }
 
-*::-webkit-scrollbar {
-  width: 12px;
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #dcdcdc;
 }
 
-*::-webkit-scrollbar-track {
-  background: #282c34;
+/* Container Styles */
+.Container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-*::-webkit-scrolbar-thumb {
-  background-color: #00FF41;
-  border-radius: 1em;
-  border: 3px solid #282c34;
+/* Toggle Button Styles */
+.toggle-button-group {
+  margin: 20px 0;
 }
 
+.toggle-button {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+}
 
-.App *{
-  white-space: pre-line;
+/* Projects Section */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  text-align: left;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.card-text {
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.card-text strong {
+  color: #343a40;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Image Styles */
+.card img {
+  max-height: 300px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #aaaaaa60;
+  border-radius: .5rem;
+  margin: 10px;
+  object-fit: cover;
+}
+
+/* Contact Section */
+#contact h2 {
+  font-size: 2rem;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+#contact a {
+  color: #343a40;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
+}
+
+#contact a:hover {
+  transform: scale(1.2);
+  color: #007bff;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  padding: 20px 0;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  #contact a {
+    margin: 0 10px;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
 }
