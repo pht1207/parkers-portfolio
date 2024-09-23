@@ -1,4 +1,4 @@
-# This is the code for my portfolio website
+# This is the branch of code for my old portfolio website
 
 It is a simple React project with three pages, accessed via React Router.
 
@@ -6,4 +6,4 @@ It is a simple React project with three pages, accessed via React Router.
 
 Home, Projects, About Me:
 
-### `Page Accessible via https://portfolio.parkert.dev`
+### `Page Accessible via https://portfolio2.parkert.dev`
